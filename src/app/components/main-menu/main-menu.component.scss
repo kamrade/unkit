@@ -1,0 +1,29 @@
+@import "src/styles/variables";
+
+.nl-main-menu {
+  color: $white;
+  display: flex;
+}
+
+a.nl-link, a.nl-link:visited {
+  color: $white;
+  display: block;
+  padding: 0.125em 1em 0;
+  line-height: 1.375em;
+  border-radius: 2px;
+  position: relative;
+  transition: background .2s ease-in-out;
+
+  &.nl-active-link {
+    color: $green;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+
+a.nl-link:hover {
+  text-decoration: none;
+  background-color: $gray-800;
+}

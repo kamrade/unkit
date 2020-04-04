@@ -1,0 +1,130 @@
+$fontsPath: '/assets/fonts/Hauss';
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-LightItalic.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-BoldItalic.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-Thin.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-RegularItalic.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-BlackItalic.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-MediumItalic.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-Light.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss Book';
+    src: url($fontsPath + 'ALSHauss-BookItalic.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss Hairline';
+    src: url($fontsPath + 'ALSHauss-Hairline.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-Hairline.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-Regular.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss Book';
+    src: url($fontsPath + 'ALSHauss-Book.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss Hairline';
+    src: url($fontsPath + 'ALSHauss-HairlineItalic.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-HairlineItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-ThinItalic.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-Bold.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-Black.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ALS Hauss';
+    src: url($fontsPath + 'ALSHauss-Medium.woff2') format('woff2'),
+        url($fontsPath + 'ALSHauss-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+

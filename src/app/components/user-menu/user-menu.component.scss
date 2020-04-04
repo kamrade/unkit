@@ -1,0 +1,11 @@
+@import "src/styles/variables";
+
+.nl-user-menu {
+  color: $white;
+  text-align: right;
+
+  .nl-user-menu--user-name {
+    padding: 0.125em 1em 0;
+    line-height: 1.375em;
+  }
+}
