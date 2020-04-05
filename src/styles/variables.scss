@@ -1,10 +1,16 @@
 @import "~bootstrap/scss/functions";
 
-
 // Reassign bootstrap variables here
 // $gray-600: #00ff00;
+$green:      #30CC5C;
+$red:        #F54C56;
 
-$green: #30CC5C;
+$gray-100:   #F8F9FA;
+$gray-900:   #1E222A;
+
+$danger:     $red;
+$primary:    $gray-900;
+$secondary:  $gray-100;
 
 $spacer: 1rem;
 $spacers: ();
@@ -23,9 +29,49 @@ $spacers: map-merge(
 $grid-columns: 24;
 $grid-gutter-width: 20px;
 
+$link-hover-decoration: none;
 
+$nl-theme-colors: ();
+$nl-theme-colors: map-merge(
+    (
+      "primary":    $primary,
+      "secondary":  $secondary,
+      "danger":     $danger
+    ),
+    $nl-theme-colors
+);
+
+// Buttons
+$btn-disabled-opacity: 0.45;
+
+
+// Options
+$enable-rounded: false;
+$enable-shadows: false;
+
+// Headings
+$font-size-base:     1rem;
+$line-height-base:   1.5;
+
+$headings-margin-bottom: 0.5em;
+
+$h1-font-size:                $font-size-base * 2.5;    // 40
+$h2-font-size:                $font-size-base * 2;      // 32
+$h3-font-size:                $font-size-base * 1.75;   // 28
+$h4-font-size:                $font-size-base * 1.5;    // 24
+$h5-font-size:                $font-size-base * 1.25;   // 20
+$h6-font-size:                $font-size-base;          // 16
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//
+//
 // Place custom variables here
 // $gray-050: #f7f8f9;
+
+$enable-hauss-font: true;
+$button-border-radius: 0;
 
 
 @import "~bootstrap/scss/variables";

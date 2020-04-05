@@ -1,7 +1,7 @@
 @import "src/styles/variables";
 
 .nl-header {
-  padding: $spacer $spacer*2;
+  padding: 0.75*$spacer $spacer*2;
   background-color: $gray-900;
   font-size: $spacer;
 }

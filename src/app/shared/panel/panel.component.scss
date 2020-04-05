@@ -1,0 +1,27 @@
+@import "src/styles/variables";
+@import "~bootstrap/scss/mixins";
+
+.nl-panel {
+  padding: 2rem 0;
+  background-color: $gray-100;
+  color: $gray-900;
+  margin-bottom: 1rem;
+
+  &.nl-panel-sm {
+    padding: 1rem 0;
+  }
+
+  &.nl-panel-lg {
+    padding: 3rem 0;
+  }
+
+  &.nl-panel-dark {
+    background-color: $gray-900;
+    color: $white;
+  }
+
+  &.nl-panel-white {
+    background-color: $white;
+    color: $gray-900;
+  }
+}

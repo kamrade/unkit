@@ -1,0 +1,16 @@
+<div [ngClass]="{
+  'nl-panel': true,
+  'nl-panel-sm': size === 'small',
+  'nl-panel-lg': size === 'large',
+  'nl-panel-dark': color === 'dark',
+  'nl-panel-white': color === 'white'
+}">
+
+  <!-- TODO: It may be better to wrap it to app-container component -->
+
+  <div [ngClass]="{'container': containerized}">
+
+    <ng-content></ng-content>
+
+  </div>
+</div>
