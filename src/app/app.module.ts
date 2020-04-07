@@ -10,6 +10,8 @@ import { SettingsComponent } from './pages/settings/settings.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { UserMenuComponent } from './components/user-menu/user-menu.component';
+import { UiKitNavigationComponent } from './pages/ui-kit/ui-kit-navigation/ui-kit-navigation.component';
+import { UiKitButtonsComponent } from './pages/ui-kit/ui-kit-buttons/ui-kit-buttons.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { UserMenuComponent } from './components/user-menu/user-menu.component';
     HeaderComponent,
     MainMenuComponent,
     UserMenuComponent,
+    UiKitNavigationComponent,
+    UiKitButtonsComponent,
   ],
   imports: [
     BrowserModule,

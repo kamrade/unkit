@@ -6,6 +6,7 @@ import { ButtonModule } from './button/button.module';
 import { ContainerModule } from './container/container.module';
 import { PanelModule } from './panel/panel.module';
 import {IconsModule} from './icons/icons.module';
+import {PageModule} from './page/page.module';
 
 @NgModule({
   declarations: [],
@@ -16,6 +17,7 @@ import {IconsModule} from './icons/icons.module';
     ContainerModule,
     PanelModule,
     IconsModule,
+    PageModule,
   ],
   exports: [
     ButtonModule,
@@ -23,6 +25,7 @@ import {IconsModule} from './icons/icons.module';
     ContainerModule,
     PanelModule,
     IconsModule,
+    PageModule,
   ]
 })
 export class SharedModule { }

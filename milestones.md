@@ -4,7 +4,7 @@
     -[x] Margin Bottom
     -[x] Containerized
     -[x] Size (Vertical Paddings)
-    -[ ] Color themes
+    -[x] Color themes
 3. Buttons
     -[x] sm, md, lg
     -[x] primary, secondary, danger
@@ -20,5 +20,7 @@
     -[x] stylize (colorize)
     -[x] weight
     -[ ] Scaled icons scales weight too
+    -[ ] Hover
+    -[ ] Offsets (position: relative)
 5. Structure
     -[ ] UIKit routing

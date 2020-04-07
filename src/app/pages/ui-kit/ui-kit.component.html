@@ -1,68 +1,15 @@
-<app-container>
-  <div class="pt-5">
-    <h1>UI Kit</h1>
-  </div>
-</app-container>
+<app-page>
 
-<div class="mb-5">
   <app-container>
-    <h2>Icons</h2>
+
+      <h1>
+        <a routerLinkActive="nl-active-link" class="nl-link" routerLink="/ui-kit">
+          <app-icon [ngStyle]="{'position': 'relative', 'bottom.px': '4'}" name="hamburger" [size]="32"></app-icon>
+        </a>
+        UI Kit
+      </h1>
+
   </app-container>
 
-  <app-panel [containerized]="true">
-    <app-icon name="arrowLeft" size="64" weight="4" color="red"></app-icon>
-    <app-icon name="arrowLeft" weight="4"></app-icon>
-    <app-icon name="arrowLeft"></app-icon>
-  </app-panel>
-
-  <app-panel [containerized]="true" color="white" size="small">
-    <app-icon name="arrowLeft"></app-icon>
-    <app-icon name="arrowLeft"></app-icon>
-    <app-icon name="arrowLeft"></app-icon>
-    <app-icon name="arrowRight"></app-icon>
-    <app-icon name="arrowRight"></app-icon>
-    <app-icon name="arrowRight"></app-icon>
-  </app-panel>
-</div>
-
-
-<app-container>
-  <h2>Buttons</h2>
-</app-container>
-
-<app-panel [containerized]="true" size="small">
-
-    <div class="row">
-      <div class="col-md-12">
-        <button nl-button [nlBlock]="true" nlType="danger" nlSize="small">Small Danger Block Button</button>
-      </div>
-      <div class="col-md-12">
-        <button nl-button [nlBlock]="true" nlType="primary" nlSize="small">Small Primary Block Button</button>
-      </div>
-    </div>
-
-</app-panel>
-
-<app-panel [containerized]="true" size="large">
-
-    <div class="row">
-      <div class="col-md-12">
-        <button nl-button disabled [nlBlock]="true" nlType="danger" nlSize="large">Large Danger Block Button</button>
-      </div>
-      <div class="col-md-12">
-        <button nl-button [nlBlock]="true" nlType="primary" nlSize="large">Large Primary Block Button</button>
-      </div>
-    </div>
-
-</app-panel>
-
-<app-panel [containerized]="true" color="dark">
-  <div class="row">
-    <div class="col-md-12">
-      <button nl-button [nlBlock]="true" nlType="danger">Danger Block Button</button>
-    </div>
-    <div class="col-md-12">
-      <button nl-button [nlBlock]="true" [nlOutline]="true" nlType="danger">Outline Danger Block Button</button>
-    </div>
-  </div>
-</app-panel>
+  <router-outlet></router-outlet>
+</app-page>
